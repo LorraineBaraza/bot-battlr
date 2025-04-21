@@ -19,7 +19,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("http://localhost:3000/bots")
+    fetch("https://lord-of-the-bots-backend.onrender.com")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
