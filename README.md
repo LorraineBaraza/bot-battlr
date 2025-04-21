@@ -1,8 +1,9 @@
 # ⚔️ Bot Battlr
+Live view: https://lord-of-the-bots.netlify.app/
 
 **Bot Battlr** is a dynamic, React-based single-page application (SPA) where you can browse a list of battle bots, view their detailed specs, enlist them into your personal army, discharge them when they're no longer needed, and even delete them permanently (with dramatic flair, of course).
 
-This app is inspired by collectible battle games and the aesthetic of epic sci-fi and fantasy worlds like Warhammer and *Infinite Gacha*.
+This app is inspired by collectible battle games and the aesthetic of epic sci-fi and fantasy worlds like Warhammer and the comic *Pick me up: Infinite Gacha*.
 
 ---
 
