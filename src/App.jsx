@@ -19,7 +19,7 @@ function App() {
 
 
   useEffect(() => {
-    fetch("https://lord-of-the-bots-backend.onrender.com")
+    fetch("https://lord-of-the-bots-backend.onrender.com/bots")
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -73,7 +73,7 @@ function App() {
     setArmy(army.filter((bot) => bot.id !== botId));
 
     // Sending DELETE request to backend
-    fetch(`http://localhost:3000/bots/${botId}`, {
+    fetch(`https://lord-of-the-bots-backend.onrender.com/bots/${botId}`, {
       method: "DELETE",
     })
       .then((response) => {
