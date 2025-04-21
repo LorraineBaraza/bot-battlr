@@ -1,5 +1,5 @@
 # ⚔️ Bot Battlr
-Live view: https://lord-of-the-bots.netlify.app/
+Live view: bot-battlr-pi-tawny.vercel.app
 
 **Bot Battlr** is a dynamic, React-based single-page application (SPA) where you can browse a list of battle bots, view their detailed specs, enlist them into your personal army, discharge them when they're no longer needed, and even delete them permanently (with dramatic flair, of course).
 
